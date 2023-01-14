@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/assets/images/image\ 2.png);
+    color: #ffffff;
+}
+.header img{
+    margin-top: 1.5rem;
+    margin-left: 3.62rem;
+}
+
+.login-area{
+    display: flex;
+    justify-content: center;
+}
+.login-container{
+    background: hwb(0 0% 100% / 0.753);
+    width: 28.12rem;
+    padding-left: 4.25rem;
+    margin-bottom: 5.62rem;
+    margin-top: 1.37rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+   
+}
+h3{
+    font-size: 32px;
+    margin-top: 3.62rem;
+}
+#email{
+    margin-top: 1.75rem;
+}
+#password{
+    margin-top: 1rem;
+}
+button{
+    margin-top: 2.5rem;
+    width: 19.62rem;
+    height: 3rem;
+    background: #E50914;
+    color: #ffffff;
+    border: none;
+    
+}
+input{
+    width: 19.62rem;
+    height: 3.12rem;
+    padding-left: 1.25rem;
+}
+.remember{
+    margin-top: 0.87rem;
+    display: flex;
+    justify-content: space-between;
+    width: 19.62rem;
+    color: #b3b3b3;
+}
+.remb{
+    margin-left: 1.31rem;
+}
+.form-text{
+    display: flex;
+    column-gap: 0.62rem;
+    margin-top: 3.75rem;
+    color: #737373;
+}
+.sign-up{
+    color: #737373;
+    margin-top: 1.18rem;
+}
+.sign-up span{
+    color: #ffffff;
+}
+.google{
+    color: #8c8c8c;
+    margin-top: 0.87rem;
+    margin-bottom: 8.93rem;
+}
+.google span{
+    color: #0071EB;
+}
+.footer{
+    background: hwb(0 0% 100% / 0.753);  
+}
+ul{
+    display: flex;
+}
